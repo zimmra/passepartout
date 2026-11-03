@@ -2,6 +2,8 @@ name: "Apple: Unsigned iOS IPA (all features)"
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ci/unsigned-ipa]
 
 defaults:
   run:
